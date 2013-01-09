@@ -319,84 +319,143 @@
 #-webkit-web-inspector .metrics .left {
   color: #fff !important;
 }
+/**********************************************/
+/* HTML
+/**********************************************/
+
 #-webkit-web-inspector .webkit-html-comment {
-  color: #7c7c7c !important;
+  color: #8c8c8c !important;
 }
+
+#-webkit-web-inspector .webkit-html-doctype {
+
+}
+
 #-webkit-web-inspector .webkit-html-tag {
-  color: #e3584d !important;
+  color: #f61168 !important;
 }
+
+#-webkit-web-inspector .webkit-html-tag-name {
+
+}
+
+#-webkit-web-inspector .webkit-html-attribute {
+
+}
+
 #-webkit-web-inspector .webkit-html-attribute-name {
-  color: #bbde57 !important;
+  color: #8ad50b !important;
 }
+
 #-webkit-web-inspector .webkit-html-attribute-value {
-  color: #e4ff9b !important;
+  color: #ffdd6d !important;
 }
-#-webkit-web-inspector .webkit-html-text-node .webkit-html-css-node {
+
+#-webkit-web-inspector .webkit-html-external-link {
+  color: #65c9ff !important;
+}
+
+#-webkit-web-inspector .webkit-html-resource-link {
+  color: #65c9ff !important;
+}
+
+#-webkit-web-inspector .webkit-html-text-tag {
+
+}
+
+#-webkit-web-inspector .webkit-html-text-node {
+  color: #ffffff !important;
+}
+
+#-webkit-web-inspector .webkit-html-css-node {
   color: #c2c3c3 !important;
 }
+
 #-webkit-web-inspector .webkit-html-js-node {
   color: #c2c3c3 !important;
 }
-#-webkit-web-inspector .webkit-html-resource-link,
-#-webkit-web-inspector .webkit-html-external-link {
-  color: #e3b959 !important;
-}
+
+/**********************************************/
+/* CSS
+/**********************************************/
+
 #-webkit-web-inspector .webkit-css-comment {
-  color: #7c7c7c !important;
+  color: #75757b !important;
 }
-#-webkit-web-inspector .webkit-css-selector,
-#-webkit-web-inspector .styles-selector,
-#-webkit-web-inspector .styles-section .selector-matches {
-  color: #bbde57 !important;
+
+#-webkit-web-inspector #elements-content .webkit-css-url {
+
 }
-#-webkit-web-inspector .styles-section .selector {
-  color: #d5eb97 !important;
+
+#-webkit-web-inspector #elements-content .webkit-css-color {
+
 }
+
+#-webkit-web-inspector .webkit-css-selector {
+  color: #e2dbe3 !important;
+}
+
 #-webkit-web-inspector .webkit-css-property {
-  color: #eec574 !important;
+  color: #f61168 !important;
 }
-#-webkit-web-inspector .webkit-css-keyword {
-  color: #db925f !important;
+
+#-webkit-web-inspector .webkit-css-number {
+  color: #b39bff !important;
 }
-#-webkit-web-inspector .webkit-css-number,
-#-webkit-web-inspector .properties-tree .value {
-  color: #db925f !important;
+
+#-webkit-web-inspector #elements-content .webkit-css-keyword {
+
 }
-#-webkit-web-inspector .webkit-css-important,
-#-webkit-web-inspector .webkit-css-at-rule {
-  color: #b094bb !important;
+
+#-webkit-web-inspector #elements-content .webkit-css-string {
+
 }
-#-webkit-web-inspector .webkit-css-string {
-  color: #b5bc67 !important;
+
+#-webkit-web-inspector #elements-content .webkit-css-important {
+
 }
-#-webkit-web-inspector .webkit-css-url {
-  color: #eec574 !important;
-}
+
 #-webkit-web-inspector .sidebar-separator {
   padding: 3px 5px 5px !important;
   background: #242729 !important;
   color: #b3b3b3 !important;
   text-shadow: none !important;
 }
-#-webkit-web-inspector .webkit-line-content,
-#-webkit-web-inspector .webkit-javascript-ident {
-  color: #ffffff !important;
-}
-#-webkit-web-inspector .webkit-javascript-keyword {
-  color: #db925f !important;
-}
+/**********************************************/
+/* JavaScript
+/**********************************************/
+
 #-webkit-web-inspector .webkit-javascript-comment {
-  color: #7c7c7c !important;
+  color: #79767b !important;
 }
+
+#-webkit-web-inspector .webkit-javascript-keyword {
+  color: #6ae5fb !important;
+}
+
+#-webkit-web-inspector .webkit-javascript-ident {
+  color: #ddd !important;
+}
+
 #-webkit-web-inspector .webkit-javascript-string {
-  color: #b5bc67 !important;
+  color: #fbec7b !important;
 }
+
 #-webkit-web-inspector .webkit-javascript-number {
-  color: #db925f !important;
+  color: #be9bfb !important;
 }
+
 #-webkit-web-inspector .webkit-javascript-regexp {
-  color: #c96666 !important;
+  color: #fbec7b !important;
 }
+
+#-webkit-web-inspector #elements-content ::selection {
+  background: slategray;
+  color: #fff;
+  text-shadow: none;
+}
+
+
 #-webkit-web-inspector .section .properties .name,
 #-webkit-web-inspector .event-properties .name {
   color: #82a1be !important;
@@ -467,6 +526,12 @@
 }
 #-webkit-web-inspector .styles-selector {
   color: #bbde57 !important;
+}
+#-webkit-web-inspector .selector, #-webkit-web-inspector .selector-matches {
+  color: #bbde57 !important;
+}
+#-webkit-web-inspector .webkit-css-property {
+  color: #f61168 !important;
 }
 #-webkit-web-inspector .section .header {
   color: #CCC !important;
